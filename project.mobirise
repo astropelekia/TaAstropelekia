@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ΤαΑστροπελέκια",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -11,6 +11,10 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
+    "favicon": "",
+    "noImageResize": "",
+    "siteUrl": "undefined",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-145128478-3\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-145128478-3');\r\n</script>\r\n",
     "uniqCompNum": 19,
     "versionPublish": "4.10.7"
   },
@@ -47,7 +51,7 @@
           },
           "title": "",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YouTube</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YouTube</a> ",
           "alias": "purity/components",
           "_tags": [
             "Θέμα"
@@ -93,7 +97,7 @@
               "color": "#5cb85c"
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Τα Αστροπελέκια</a>",
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://astropelekia.github.io/TaAstropelekia/index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Τα Αστροπελέκια</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-0",
           "_styles": {
@@ -120,7 +124,7 @@
           "text2": "<ul></ul>",
           "form": {
             "title": "MESSAGE",
-            "action": "john.gkagkas@gmail.com",
+            "action": "astropelekia@gmail.com",
             "alerts": {
               "success": "Ευχαριστούμε  πολύ."
             },
@@ -220,7 +224,7 @@
               "color": "#5cb85c"
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Τα Αστροπελέκια</a>",
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://astropelekia.github.io/TaAstropelekia/index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Τα Αστροπελέκια</a>",
           "_name": "ext.menu",
           "_styles": {
             ".navbar-toggler": {
@@ -372,7 +376,7 @@
           "text2": "<ul></ul>",
           "form": {
             "title": "MESSAGE",
-            "action": "john.gkagkas@gmail.com",
+            "action": "astropelekia@gmail.com",
             "alerts": {
               "success": "Ευχαριστούμε  πολύ."
             },
