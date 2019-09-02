@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ΤαΑστροπελέκια",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -11,7 +11,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 16,
+    "uniqCompNum": 19,
     "versionPublish": "4.10.7"
   },
   "pages": {
@@ -25,6 +25,36 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/-2000x1125.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">YouTube</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Θέμα"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-h"
+        },
         {
           "_inherit": "menu",
           "_params": {
@@ -74,7 +104,7 @@
         },
         {
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": "3",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
@@ -226,6 +256,58 @@
             "showMeta": false,
             "showText": true,
             "showButtons": true,
+            "inverse": true,
+            "imageSize": "15",
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/photo-5.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/l_Kd3-eWbQY",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Κυρά μου Ν έχεις..\r",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "Νέος Οδηγός&nbsp;",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Δείτε το στο κανάλι&nbsp;</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Θέμα"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-i"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
             "inverse": false,
             "imageSize": "15",
             "paddingTop": "2",
@@ -264,7 +346,7 @@
           "title": "Με τα κέρατα, με τα κέρατα",
           "meta": "By John Smith posted July 30, 2015",
           "text": "Ένα μικρό ανέκδοτο με εικόνα και ήχο ......",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://www.youtube.com/watch?v=SgcpacjtP0U\" data-toolbar=\"-mbrBtnMove\">Στο YouTube</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://www.youtube.com/watch?v=SgcpacjtP0U\" data-toolbar=\"-mbrBtnMove\">Δείτε το στο κανάλι </a>",
           "alias": "purity/components",
           "_tags": [
             "Θέμα"
@@ -274,7 +356,7 @@
         },
         {
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": "3",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
