@@ -13,10 +13,10 @@
     "siteFonts": [],
     "favicon": "",
     "noImageResize": "",
-    "siteUrl": "",
+    "siteUrl": "undefined",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-145128478-3\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-145128478-3');\r\n</script>\r\n",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "on",
+    "robotsSwitcher": "",
     "cookiesAlert": {
       "colorText": "#424a4d",
       "colorBg": "#eaeff1",
@@ -33,8 +33,9 @@
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "sitemapSwitcherAuto": "on",
-    "uniqCompNum": 27,
-    "versionPublish": "4.10.7"
+    "uniqCompNum": 30,
+    "versionPublish": "4.10.8",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -126,8 +127,8 @@
         },
         {
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "1",
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
@@ -379,8 +380,8 @@
         },
         {
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "1",
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
